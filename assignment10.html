@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="assignment10.js"></script>
+    <link rel="stylesheet" href="assignment10.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="screen">
+            <input id="display" disabled />
+        </div>
+        <div class="calculator">
+            <button class="operator" onClick="mySin()">SIN</button>
+            <button class="operator" onClick="myCos()">COS</button>
+            <button class="operator" onClick="myTan()">TAN</button>
+            <button class="operator" onClick="mySqrt()">√</button>
+            <br />
+            <button class="operator" onClick="clearAll()">AC</button>
+            <button class="operator" onClick="getValue('/')">÷</button>
+            <button class="operator" onClick="getValue('*')">X</button>
+            <button class="operator" onClick="delChar()">DEL</button>
+            <br />
+            <button class="number" onClick="getValue(7)">7</button>
+            <button class="number" onClick="getValue(8)">8</button>
+            <button class="number" onClick="getValue(9)">9</button>
+            <button class="operator" onClick="getValue('-')">-</button>
+            <br />
+            <button class="number" onClick="getValue(4)">4</button>
+            <button class="number" onClick="getValue(5)">5</button>
+            <button class="number" onClick="getValue(6)">6</button>
+            <button class="operator" onClick="getValue('+')">+</button>
+            <br />
+            <button class="number" onClick="getValue(1)">1</button>
+            <button class="number" onClick="getValue(2)">2</button>
+            <button class="number" onClick="getValue(3)">3</button>
+            <button class="operator" onClick="getValue('.')">.</button>
+            <br />
+            <button class="operator" onClick="getValue('(')">(</button>
+            <button class="operator" onClick="getValue(')')">)</button>
+            <button class="operator" onClick="getValue('**')">^</button>
+            <button class="operator" onClick="getValue('%')">%</button>
+            <br />
+            <button class="number" onClick="getValue(0)">0</button>
+            <button class="number" onClick="getValue(00)">00</button>
+            <button class="operator" onClick="sum()" id="myAns">=</button>
+        </div>
+    </div>
+</body>
+
+</html>
